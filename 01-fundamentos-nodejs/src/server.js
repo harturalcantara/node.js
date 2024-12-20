@@ -10,3 +10,10 @@ server.listen(3333);
 // 'node:http' colocamos node a frente para destacar que e um modulo interno do node.
 // o nodejs por padrao nao fornece suporte ao ESModules => import/export, 
 // usamnos o 'Common JS = require'.
+
+/** Aula 2
+ * Nas ultimas versao do node, podemos usar 'node --watch src/server.js' 
+ *  para ele ficar monitorarando, 
+ * toda vez que tiver uma alteracao, ele recompila. 
+ * Coloca como atalho em packege.json e usamos 'node run dev'
+ */
